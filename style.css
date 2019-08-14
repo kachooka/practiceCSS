@@ -1,0 +1,60 @@
+body {
+	background-color: #EEE;
+	font-family: sans-serif;
+}
+
+.head-1 {
+	color: blue;
+	text-align: center;
+}
+
+.style-1 {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 16px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	background-color: #DDD;
+}
+
+.style-2 {
+	background-image: url(./pattern.jpg);
+	background-size: 20%;
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 16px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	height: 100px;
+}
+
+.style-3 {
+	background-image: url(./wallpaper.jpg);
+	background-size: 20%;
+	color: brown;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 16px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	height: 100px;
+	background-size: cover;
+	background-position: 0 -200px;
+}
+
+.style-4 {
+	background-image: url(./wallpaper.jpg);
+	background-size: 20%;
+	color: brown;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 16px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	height: 400px;
+	background-size: cover;
+	background-position: -400px;
+	background-attachment: fixed;
+}
